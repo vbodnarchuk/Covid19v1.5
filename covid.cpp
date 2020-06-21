@@ -44,9 +44,9 @@ int main()
     cin >> world;
     //До світу
     if (world == 1) 
-        stats = 215;
+        stats = 210;
     else 
-        stats = 130;
+        stats = 135;
     //Скрипт
     d = d - 1;
     q = Nthis - Nyest;
@@ -73,7 +73,7 @@ int main()
         infect_day = b + b * Nnasel / stats;
         cout << infect_day << (" infected people per ") << a + 2 << (" day")<<endl;
         Sleep(200);
-        if (N2 >= 7704000000) {
+        if (N2 >= 7705000000) {
             cout << ("All people will be infected after ") << a + 2 << (" days") << endl;//Весь світ заражений
             break;
         }
